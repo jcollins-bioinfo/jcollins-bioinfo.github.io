@@ -7,7 +7,7 @@ body { -epub-hyphens: auto; }
     transform: scalex(0.05); transform: scaley(0.01); height: 100% }
     85% { background-size: 1px; opacity: 0.89;        /* font-size: 15px; */        /* letter-spacing: 14px; */
     transform: scalex(1); transform: scaley(1); height: 100% }
-    86% { background-size: 1px; opacity: 0.25;        /* font-size: 15px; */        /* letter-spacing: 14px; */
+    86% { background-size: 1px; opacity: 0.5;        /* font-size: 15px; */        /* letter-spacing: 14px; */
     height: 100% }
     100% { background-size: 1px; opacity: 0.99;        /* font-size: 15px; */        /* letter-spacing: 14px; */
     transform: scalex(1); transform: scaley(1); height: 100% }
