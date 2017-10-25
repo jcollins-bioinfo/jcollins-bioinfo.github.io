@@ -1,1380 +1,299 @@
-body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
-    margin:0;
-    padding:0;
-    border-width:0;
-}
-body {
-    -epub-hyphens:auto;
-}
-div.Basic-Graphics-Frame {
-    border-color:#000000;
-    border-width:1px;
-    border-style:solid;
-}
-div.Basic-Text-Frame {
-    border-style:solid;
-}
-li {
-    font-family:"Lato Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-    text-transform:none;
-    line-height: 1.3rem;
-
-}
-p.Basic-Paragraph, li.Basic-Paragraph {
-    color:#000000;
-    font-family:"Minion Pro", serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:normal;
-    line-height:1.3rem;
-    margin-bottom:0;
-    margin-left:0px;
-    margin-right:0;
-    margin-top:0;
-    orphans:1;
-    page-break-after:auto;
-    page-break-before:auto;
-    text-align:left;
-    text-decoration:none;
-    text-indent:1px;
-    text-transform:none;
-    widows:1;
-}
-p.Paragraph-Style-10 {
-    color:#000000;
-    font-family:"Roboto Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:300;
-    line-height:1.3rem;
-    margin-bottom:5px;
-    margin-left:0px;
-    margin-right:5px;
-    margin-top:0;
-    orphans:1;
-    page-break-after:auto;
-    page-break-before:auto;
-    text-align:justify;
-    text-align-last:left;
-    text-decoration:none;
-    text-indent:1px;
-    text-transform:none;
-    widows:1;
-}
-p.Paragraph-Style-4 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:200;
-    line-height:1.3rem;
-    margin-bottom:8px;
-    margin-left:0;
-    margin-right:0;
-    margin-top:0;
-    orphans:1;
-    page-break-after:auto;
-    page-break-before:auto;
-    text-align:justify;
-    text-decoration:none;
-    text-indent:0;
-    text-transform:none;
-    widows:1;
-}
-li.Paragraph-Style-8 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:normal;
-    line-height:1.3rem;
-    list-style-position:outside;
-    margin-bottom:1px;
-    margin-left:1px;
-    margin-right:0;
-    margin-top:0;
-    orphans:1;
-    page-break-after:auto;
-    page-break-before:auto;
-    text-align:justify;
-    text-decoration:none;
-    text-indent:0;
-    text-transform:none;
-    widows:1;
-}
-span.Character-Style-13 {
-    color:#000000;
-    font-family:"Proxima Nova Cond Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.Character-Style-14 {
-    color:#225ea0;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-}
-span.Character-Style-18 {
-    color:#000000;
-    font-family:"Proxima Nova Cond", sans-serif;
-    font-style:normal;
-    font-weight:normal;
-}
-span.Character-Style-19 {
-    font-size:2.8rem;
-    font-variant:small-caps;
-    text-decoration:none;
-    text-transform:none;
-}
-span.Character-Style-2 {
-    font-family:"Proxima Nova ExCn Extrabold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:800;
-    text-decoration:underline;
-}
-span.Character-Style-5 {
-    color:#3333cc;
-    font-family:"Encode Sans Expanded ExtraLight", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.Character-Style-7 {
-    font-family:"Proxima Nova Cond Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.Character-Style-8 {
-    font-family:Omnes, sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-    text-decoration:underline;
-}
-span.Character-Style-9 {
-    font-family:"Proxima Nova Cond Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.Hyperlink {
-    color:#215e9e;
-    text-decoration:underline;
-}
-p.ParaOverride-1 {
-    -epub-hyphens:none;
-    margin-bottom:2px;
-}
-p.ParaOverride-2 {
-    margin-bottom:11px;
-}
-p.ParaOverride-3 {
-    margin-bottom:2px;
-}
-p.ParaOverride-4 {
-    -epub-hyphens:none;
-    margin-bottom:5px;
-}
-p.ParaOverride-5 {
-    margin-bottom:1px;
-}
-p.ParaOverride-6 {
-    -epub-hyphens:none;
-    margin-bottom:4px;
-    margin-right:10px;
-    margin-top:2px;
-    text-align:left;
-    text-align-last:left;
-}
-li.ParaOverride-7 {
-    -epub-hyphens:none;
-    list-style-position:inside;
-    margin-bottom:4px;
-    text-indent:1px;
-}
-p.ParaOverride-8 {
-    margin-bottom:2px;
-    text-align:justify;
-}
-p.ParaOverride-9 {
-    text-align:justify;
-}
-p.ParaOverride-10 {
-    -epub-hyphens:none;
-    text-align:justify;
-}
-p.ParaOverride-11 {
-    -epub-hyphens:none;
-}
-p.ParaOverride-12 {
-    -epub-hyphens:none;
-    margin-bottom:1px;
-}
-p.ParaOverride-13 {
-    -epub-hyphens:none;
-    margin-bottom:1px;
-    text-align:justify;
-}
-p.ParaOverride-14 {
-    -epub-hyphens:none;
-    margin-bottom:10px;
-}
-li.ParaOverride-15 {
-    -epub-hyphens:none;
-    list-style-position:outside;
-    margin-bottom:4px;
-    margin-left:4px;
-    margin-right:4px;
-    text-indent:0px;
-}
-li.ParaOverride-16 {
-    -epub-hyphens:none;
-    list-style-position:outside;
-    margin-bottom:18px;
-    margin-left:4px;
-    margin-right:4px;
-    text-indent:0px;
-}
-p.ParaOverride-17 {
-    -epub-hyphens:none;
-    margin-bottom:4px;
-}
-li.ParaOverride-18 {
-    -epub-hyphens:none;
-    margin-bottom:4px;
-    margin-left:4px;
-    margin-right:2px;
-    margin-top:2px;
-    text-indent:0px;
-}
-p.ParaOverride-19 {
-    -epub-hyphens:none;
-    margin-bottom:0px;
-    text-align:justify;
-}
-p.ParaOverride-20 {
-    margin-bottom:7px;
-    text-align:justify;
-}
-p.ParaOverride-21 {
-    margin-bottom:1px;
-    text-align:justify;
-    text-align-last:left;
-}
-p.ParaOverride-22 {
-    -epub-hyphens:none;
-    text-align:justify;
-}
-p.ParaOverride-23 {
-    -epub-hyphens:none;
-    margin-bottom:10px;
-    text-align:justify;
-}
-p.ParaOverride-24 {
-    margin-bottom:2px;
-    margin-top:14px;
-    text-align:justify;
-}
-p.ParaOverride-25 {
-    text-align:justify;
-}
-p.ParaOverride-26 {
-    margin-bottom:10px;
-    margin-top:13px;
-    text-align:justify;
-}
-span.CharOverride-1 {
-    font-family:"Oswald SemiBold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-}
-span.CharOverride-2 {
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-3 {
-    font-size:0.8rem;
-}
-span.CharOverride-4 {
-    color:#352663;
-    font-size:0.8rem;
-}
-span.CharOverride-5 {
-    color:#352663;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-6 {
-    color:#000000;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-7 {
-    color:#336768;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-8 {
-    color:#336768;
-    font-size:0.8rem;
-}
-span.CharOverride-9 {
-    color:#000000;
-    font-size:0.8rem;
-}
-span.CharOverride-10 {
-    color:#6d6f71;
-    font-size:0.8rem;
-}
-span.CharOverride-11 {
-    color:#20458d;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-12 {
-    color:#25408f;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-13 {
-    color:#20458d;
-    font-size:0.8rem;
-}
-span.CharOverride-14 {
-    color:#1e468c;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-15 {
-    color:#1e468c;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-16 {
-    color:#225ea0;
-    font-size:0.8rem;
-}
-span.CharOverride-17 {
-    color:#25408f;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-18 {
-    color:#6d6f71;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-19 {
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-20 {
-    color:#a99125;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-21 {
-    color:#a99125;
-    font-size:0.8rem;
-    font-style:italic;
-    font-weight:normal;
-}
-span.CharOverride-22 {
-    color:#6d6e71;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-23 {
-    color:#3333cc;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:normal;
-    text-decoration:underline;
-    text-transform:none;
-}
-span.CharOverride-24 {
-    color:#000000;
-    font-size:0.8rem;
-    font-style:italic;
-    font-weight:normal;
-}
-span.CharOverride-25 {
-    color:#00aeef;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-26 {
-    color:#3333cc;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-27 {
-    color:#0033ff;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-28 {
-    color:#000000;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:bold;
-    text-transform:none;
-}
-span.CharOverride-29 {
-    color:#000000;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:bold;
-    text-transform:none;
-}
-span.CharOverride-30 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:600;
-    text-transform:none;
-}
-span.CharOverride-31 {
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:600;
-    text-transform:none;
-}
-span.CharOverride-32 {
-    color:#6d6f71;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:600;
-    text-transform:none;
-}
-span.CharOverride-33 {
-    color:#6d6f71;
-    font-size:0.8rem;
-    font-variant:small-caps;
-    text-transform:none;
-}
-span.CharOverride-34 {
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-35 {
-    color:#25408f;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-    text-decoration:underline;
-}
-span.CharOverride-36 {
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-    text-decoration:underline;
-}
-span.CharOverride-37 {
-    color:#215e9e;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-    text-decoration:underline;
-}
-span.CharOverride-38 {
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-    text-decoration:underline;
-}
-span.CharOverride-39 {
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-    text-decoration:underline;
-}
-span.CharOverride-40 {
-    color:#20458d;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-    text-decoration:underline;
-}
-span.CharOverride-41 {
-    color:#336699;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-    text-decoration:underline;
-}
-span.CharOverride-42 {
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-}
-span.CharOverride-43 {
-    color:#6d6e71;
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-44 {
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-style:normal;
-    font-weight:600;
-    text-decoration:underline;
-}
-span.CharOverride-45 {
-    color:#a89131;
-    font-family:"Proxima Nova ExCn", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-46 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-47 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-48 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-49 {
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-50 {
-    color:#ff9900;
-    font-family:"Proxima Nova ExCn Medium", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:500;
-}
-span.CharOverride-51 {
-    font-family:"Proxima Nova ExCn Medium", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:500;
-}
-span.CharOverride-52 {
-    color:#ec008c;
-    font-family:"Proxima Nova ExCn Medium", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:500;
-}
-span.CharOverride-53 {
-    color:#3333cc;
-    font-family:"Proxima Nova ExCn Medium", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:500;
-}
-span.CharOverride-54 {
-    color:#999b9e;
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-55 {
-    color:#000000;
-    text-decoration:underline;
-}
-span.CharOverride-56 {
-    color:#000000;
-}
-span.CharOverride-57 {
-    color:#000000;
-    font-family:ABeeZee, sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-58 {
-    color:#000000;
-    font-family:Poly, serif;
-    font-size:0.8rem;
-    font-style:italic;
-    font-weight:normal;
-}
-span.CharOverride-59 {
-    color:#00aeef;
-    font-family:"Arial Unicode MS", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-60 {
-    color:#25408f;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:1.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:200;
-    text-transform:none;
-}
-span.CharOverride-61 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn", sans-serif;
-    font-size:1.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-62 {
-    color:#a99125;
-    font-family:"Proxima Nova ExCn", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-63 {
-    color:#25408f;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-64 {
-    color:#25408f;
-    font-family:"Proxima Nova ExCn", sans-serif;
-    font-size:1.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-65 {
-    font-size:3.8rem;
-    text-decoration: none;
-}
-span.CharOverride-66 {
-    color:#20458d;
-    font-family:"Josefin Sans Std", sans-serif;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:100;
-    font-size:1.8rem;
-    text-transform:none;
-}
-span.CharOverride-67 {
-    color:#20458d;
-    font-family:"Josefin Sans Std", sans-serif;
-    font-size:1.7rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:100;
-    letter-spacing: 6.0px;
-    text-transform:none;
-}
-span.CharOverride-67-sub {
-    color:#20458d;
-    font-family:"Josefin Sans Std", sans-serif;
-    font-size:1.2rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:100;
-    letter-spacing: 3.0px;
-    text-transform:none;
-}
-span.CharOverride-68 {
-    color:#20458d;
-    font-family:"Open Sans Light", sans-serif;
-    font-size:1.4rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:100;
-    text-transform:none;
-}
-span.CharOverride-69 {
-    color:#20458d;
-    font-family:"Montserrat Thin", sans-serif;
-    font-size:1.4rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:200;
-    text-transform:none;
-}
-span.CharOverride-70 {
-    color:#565759;
-    font-family:"Times New Roman", serif;
-    font-size:1.0rem;
-    letter-spacing: 5.0px;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-71 {
-    font-family:"Lato Light", sans-serif;
-    font-size:1.2rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:100;
-    letter-spacing: 3.0px;
-    text-transform:none;
-}
-span.CharOverride-72 {
-    color:#a99125;
-    font-family:"Times New Roman", serif;
-    font-size:1.0rem;
-    letter-spacing: 1.0px;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-73 {
-    color:#20458d;
-    font-family:"Proxima Nova Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:200;
-    text-transform:uppercase;
-}
-span.CharOverride-74 {
-    color:#000000;
-    font-family:"Oswald ExtraLight", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-75 {
-    color:#20458d;
-    font-family:"Lato ExtraLight", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:100;
-}
-span.CharOverride-76 {
-    color:#006666;
-    font-family:"Lato Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-77 {
-    color:#20458d;
-    font-family:"Lato Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:100;
-}
-span.CharOverride-78 {
-    color:#20458d;
-    font-family:"Lato ExtraLight", sans-serif;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-79 {
-    color:#20458d;
-    font-family:"Proxima Nova ExCn", sans-serif;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-80 {
-    color:#999b9e;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-81 {
-    font-family:Lato, sans-serif;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-82 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:bold;
-    text-transform:none;
-}
-span.CharOverride-83 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-}
-span.CharOverride-84 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-85 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-86 {
-    color:#25408f;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-}
-span.CharOverride-87 {
-    color:#215e9e;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-88 {
-    color:#225ea0;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-89 {
-    color:#225ea0;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-}
-span.CharOverride-90 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-91 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:300;
-    text-transform:none;
-}
-span.CharOverride-92 {
-    color:#336768;
-    font-family:"Oswald ExtraLight", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-93 {
-    color:#943431;
-    font-family:"Lato Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-94 {
-    color:#943431;
-    font-family:"Lato ExtraLight", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-95 {
-    color:#672821;
-    font-size:0.8rem;
-}
-span.CharOverride-96 {
-    color:#672821;
-    font-family:"Oswald Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-97 {
-    color:#000000;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-98 {
-    color:#000000;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-99 {
-    color:#215e9e;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-100 {
-    color:#215e9e;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:bold;
-    text-transform:none;
-}
-span.CharOverride-101 {
-    color:#000000;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:normal;
-    text-transform:none;
-    vertical-align:super;
-}
-span.CharOverride-102 {
-    color:#000000;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:bold;
-    text-transform:none;
-}
-span.CharOverride-103 {
-    color:#20458d;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-104 {
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-105 {
-    font-size:0.8rem;
-    font-style:italic;
-    font-variant:normal;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-106 {
-    color:#25408f;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-107 {
-    color:#215e9e;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:bold;
-}
-span.CharOverride-108 {
-    color:#20458d;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:bold;
-    text-transform:none;
-}
-span.CharOverride-109 {
-    font-family:"Lato Light", sans-serif;
-    font-style:italic;
-    font-weight:300;
-}
-span.CharOverride-110 {
-    color:#6d6f71;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-111 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:italic;
-    font-weight:200;
-}
-span.CharOverride-112 {
-    color:#000000;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-}
-span.CharOverride-113 {
-    color:#000000;
-    font-family:"Proxima Nova Cond Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-114 {
-    color:#352663;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-115 {
-    color:#215e9e;
-    font-family:"Proxima Nova Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-116 {
-    color:#352663;
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-117 {
-    color:#352663;
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:italic;
-    font-weight:300;
-}
-span.CharOverride-118 {
-    color:#000000;
-    font-family:"Proxima Nova Cond Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:italic;
-    font-weight:200;
-}
-span.CharOverride-119 {
-    font-family:"Proxima Nova ExCn Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-120 {
-    color:#a89131;
-    font-family:"Proxima Nova Cond Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:200;
-    text-transform:none;
-}
-span.CharOverride-121 {
-    color:#a89131;
-    font-family:"Proxima Nova Cond Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:200;
-    text-transform:none;
-}
-span.CharOverride-122 {
-    color:#20458d;
-    font-family:"Oswald ExtraLight", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:normal;
-    font-weight:200;
-    text-transform:uppercase;
-}
-span.CharOverride-123 {
-    color:#6d6f71;
-    font-family:"Proxima Nova ExCn Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:italic;
-    font-weight:200;
-}
-span.CharOverride-124 {
-    color:#352663;
-    font-family:"Lato Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:300;
-    text-transform:none;
-}
-span.CharOverride-125 {
-    color:#352663;
-    font-family:"Lato Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-126 {
-    color:#25408f;
-    font-family:"Proxima Nova ExCn Semibold", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:600;
-}
-span.CharOverride-127 {
-    color:#999b9e;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:normal;
-    text-transform:none;
-}
-span.CharOverride-128 {
-    color:#336699;
-    font-family:"Lato Hairline", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-variant:small-caps;
-    font-weight:200;
-    text-transform:none;
-}
-span.CharOverride-129 {
-    color:#000000;
-    font-family:"Proxima Nova Cond", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-span.CharOverride-130 {
-    color:#4a4b4c;
-    font-family:"Josefin Sans Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-131 {
-    color:#000000;
-    font-family:"Josefin Sans Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-132 {
-    color:#00aeef;
-    font-family:"Josefin Sans Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-133 {
-    color:#25408f;
-    font-family:"Josefin Sans Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-134 {
-    color:#ff9900;
-    font-family:"Lato Thin", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-135 {
-    color:#ff9900;
-    font-family:"Josefin Sans Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-136 {
-    color:#f2d600;
-    font-family:"Josefin Sans Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-137 {
-    color:#27418f;
-    font-family:"Lato Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-138 {
-    color:#8082b6;
-    font-family:"Lato ExtraLight", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-139 {
-    color:#8c8e90;
-    font-family:"Lato ExtraLight", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-140 {
-    color:#336699;
-    font-family:"Josefin Sans Light", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:300;
-}
-span.CharOverride-141 {
-    font-family:"Lato ExtraLight", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:200;
-}
-span.CharOverride-142 {
-    font-family:"Bitstream Vera Sans", sans-serif;
-    font-size:0.8rem;
-    font-style:normal;
-    font-weight:normal;
-}
-#_idContainer000, #_idContainer010 {
-    display:inline-block;
-    height:0px;
-    position:relative;
-    width:0px;
-}
-#_idContainer003 {
-    display:inline-block;
-    height:0px;
-    position:relative;
-    width:201px;
-}
-#_idContainer004 {
-    display:inline-block;
-    height:0px;
-    position:relative;
-    width:198px;
-}
-#_idContainer005 {
-    display:inline-block;
-    height:0px;
-    position:relative;
-    width:195px;
-}
-#_idContainer006 {
-    display:inline-block;
-    height:0px;
-    position:relative;
-    width:189px;
-}
-#_idContainer008 {
-    display:inline-block;
-    height:0px;
-    position:relative;
-    width:203px;
-}
-#_idContainer011 {
-    display:inline-block;
-    height:120px;
-    width:162px;
-}
-#_idContainer014 {
-    display:inline-block;
-    height:110px;
-    width:164px;
-}
-#_idContainer016 {
-    display:inline-block;
-    height:0px;
-    position:relative;
-    width:143px;
-}
-img._idGenObjectAttribute-1 {
-    height:100.00%;
-    min-width:100%;
-    width:100.00%;
-}
-div._idGenObjectStyleOverride-1 {
-    border-style:solid;
-    border-width:4px;
-}
-div._idGenObjectStyleOverride-2 {
-    border-width:0px;
-}
-div._idGenObjectStyleOverride-3 {
-    border-color:#6f7173;
-    border-style:double;
-    border-width:1px;
-}
-div._idGenObjectStyleOverride-4 {
-    background-color:#000000;
-    border-color:#77787b;
-    border-style:double;
-    border-width:1px;
-}
-div._idGenObjectStyleOverride-5 {
-    background-color:#000000;
-    border-color:#95979a;
-    border-width:1px;
-}
-div._idGenObjectStyleOverride-6 {
-    border-color:#babcbe;
-    border-style:solid;
-    border-width:2px;
-}
-div._idGenObjectStyleOverride-7 {
-    background-color:#000000;
-    border-width:0px;
-}
-div._idGenObjectStyleOverride-8 {
-    border-color:#a1a3a6;
-    border-width:1px;
-}
-div._idGenObjectLayout-1 {
-    text-align:justify;
-}
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote { margin: 0; padding: 0; border-width: 0; }
+body { -epub-hyphens: auto; }
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700,900|Lato:100,200,300,400,500,600|Muli:200,300,400,600,700|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Raleway:100,200,300,400,500&amp;subset=latin-ext');
+.underline { display: inline-block; position: relative; background-repeat: no-repeat; animation-name: underline-spreadout; animation-duration: 5s; animation-timing-function: ease-out }
+@keyframes underline-spreadout {
+    0% { background-size: 0px; opacity: 0.0;        /* font-size: 10px; */        /* letter-spacing: 0.5px; */
+    transform: scalex(0.05); transform: scaley(0.01); height: 100% }
+    85% { background-size: 1px; opacity: 0.89;        /* font-size: 15px; */        /* letter-spacing: 14px; */
+    transform: scalex(1); transform: scaley(1); height: 100% }
+    86% { background-size: 1px; opacity: 0.25;        /* font-size: 15px; */        /* letter-spacing: 14px; */
+    height: 100% }
+    100% { background-size: 1px; opacity: 0.99;        /* font-size: 15px; */        /* letter-spacing: 14px; */
+    transform: scalex(1); transform: scaley(1); height: 100% }
+}
+*, *:after, *:before { box-sizing: border-box; -moz-box-sizing: border-box }
+* { margin: 0; padding: 0; border: 0 none; position: relative; outline: none }
+@keyframes anim-text-flow-keys {
+    0% { color: #ff9800; opacity: 0.998 }
+    4% { color: #ffa102; opacity: 0.996 }
+    6% { color: #ffaa03; opacity: 0.994 }
+    8% { color: #ffb305; opacity: 0.992 }
+    10% { color: #ffbb06; opacity: 0.99 }
+    12% { color: #ffaa06; opacity: 0.988 }
+    14% { color: #ff8005; opacity: 0.986 }
+    16% { color: #ff5603; opacity: 0.984 }
+    18% { color: #ff2d02; opacity: 0.982 }
+    20% { color: #ff0500; opacity: 0.98 }
+    22% { color: #ff2800; opacity: 0.978 }
+    24% { color: #ff4c00; opacity: 0.976 }
+    26% { color: #ff6f00; opacity: 0.974 }
+    28% { color: #ff9300; opacity: 0.972 }
+    30% { color: #e0a10d; opacity: 0.97 }
+    32% { color: #b39c20; opacity: 0.968 }
+    34% { color: #869632; opacity: 0.966 }
+    36% { color: #599045; opacity: 0.964 }
+    38% { color: #2b9160; opacity: 0.962 }
+    40% { color: #22aa84; opacity: 0.96 }
+    42% { color: #18c3a9; opacity: 0.958 }
+    44% { color: #0edccd; opacity: 0.956 }
+    46% { color: #04f5f1; opacity: 0.954 }
+    48% { color: #18f6fb; opacity: 0.952 }
+    50% { color: #35ecf7; opacity: 0.9500000000000001 }
+    52% { color: #52e1f3; opacity: 0.9520000000000001 }
+    54% { color: #6fd7ef; opacity: 0.9540000000000001 }
+    56% { color: #7cbded; opacity: 0.9560000000000001 }
+    58% { color: #5f91f1; opacity: 0.9580000000000001 }
+    60% { color: #4264f5; opacity: 0.96 }
+    62% { color: #2538fa; opacity: 0.962 }
+    64% { color: #070bfe; opacity: 0.964 }
+    66% { color: #0000e5; opacity: 0.966 }
+    68% { color: #0000ca; opacity: 0.968 }
+    70% { color: #0000ae; opacity: 0.97 }
+    72% { color: #000093; opacity: 0.972 }
+    74% { color: #13188b; opacity: 0.974 }
+    76% { color: #3846a1; opacity: 0.976 }
+    78% { color: #5e75b7; opacity: 0.978 }
+    80% { color: #83a3cd; opacity: 0.98 }
+    82% { color: #a8d2e3; opacity: 0.982 }
+    84% { color: #c0e1b1; opacity: 0.984 }
+    86% { color: #d2e97f; opacity: 0.986 }
+    88% { color: #e3f24e; opacity: 0.988 }
+    90% { color: #f5fa1c; opacity: 0.99 }
+    92% { color: #fff100; opacity: 0.992 }
+    94% { color: #ffdb00; opacity: 0.994 }
+    96% { color: #ffc400; opacity: 0.996 }
+    98% { color: #ffae00; opacity: 0.998 }
+    100% { color: #ff9800; opacity: 1.0 }
+}
+html, body, div.text_cell_render body { font-family: "Open Sans", sans-serif; color: #000; background-color: #fff }
+a { color: rgb(32, 92, 188); text-decoration: none; -o-transition: color 2.0s ease-out, background .1s ease-in; -ms-transition: color 2.0s ease-out, background .1s ease-in; -moz-transition: color 2.0s ease-out, background .1s ease-in; -webkit-transition: color 2.0s ease-out, background .1s ease-in; transition: color 2.5s ease-out, background .1s ease-in }
+a:link { text-decoration: none; color: rgb(51, 150, 204) !important }
+.fa-caret-down { font-size: medium !important }
+.fa-caret-right { font-size: small; opacity: 0.15 }
+.fa-fw { width: 2.0em }
+a:hover, .navbar-default, a:focus, .fa-fw:hover { color: blue !important; position: relative; transition-duration: 2.75 s !important; transition-property: transform !important; &amp;
+    :before { pointer-events: none; position: absolute; z-index: -1; content: ''; top: 100 %; left: 15 % !important; width: 90 %; opacity: .75; color: radial-gradient(ellipse at center, rgba(0, 0, 0, .81) 50 %, rgba(0, 0, 0, 0.30) 90 %) !important; transition-duration: 1.5 s; transition-property: transform opacity 0.95 }
+}
+#jc-anim:hover, #jc-anim-active, h1:hover, p:hover, h4:hover, h3:hover, h5:hover, h2:hover { animation-name: anim-text-flow-keys; animation-duration: 15s; animation-timing-function: linear; animation-iteration-count: infinite }
+h1 { font-size: 3.5rem; font-family: 'Oswald', sans-serif; text-rendering: optimizeLegibility; color: rgb(12, 49, 142); font-weight: 500; text-decoration: none; border-bottom: 0.5px solid gray; line-height: 4rem }
+h2 { font-size: 3rem; font-family: 'Muli', sans-serif; color: #FF5A09; font-weight: 400 }
+h3 { font-size: 2.2rem; font-family: 'Muli', sans-serif; font-weight: 100; color: rgb(32, 92, 188) }
+h4 { font-size: 1.8rem; font-family: 'Muli', sans-serif; color: #FF5A09; font-weight: 200 }
+h5 { text-decoration: none; font-size: 1.5rem; font-family: 'Open Sans', sans-serif; color: #ec7f37; font-weight: 100; line-height: 1.7rem; opacity: 1.0 !important }
+h6 { text-decoration: none; font-size: 1.5rem; font-family: 'Roboto-Mono', sans-serif; color: #393939; font-weight: 200 }
+.cm-s-ipython span.cm-def { color: #1704db; font-weight: 500 }
+.cm-s-ipython span.cm-keyword { color: #fb08a1; font-weight: 400; opacity: 0.9 }
+.cm-s-ipython span.cm-number { color: #f39110; font-weight: 100 }
+.cm-s-ipython span.cm-property { color: 'black'; font-weight: 100 }
+.cm-s-ipython span.cm-string { color: #a94442; font-weight: 300 }
+.cm-s-ipython span.cm-builtin { color: #7b040d; font-weight: 400 }
+.cm-s-ipython span.cm-variable { color: rgba(2, 54, 131, 0.99); font-weight: 400 }
+.cm-s-ipython span.cm-comment { color: #408080; font-style: italic }
+.cm-s-ipython span.cm-instance { color: pink; font-style: italic }
+code, kbd, pre, samp { font-family: 'Open Sans', sans-serif ! important; font-weight: 200; font-size: 1.5rem !important; line-height: 2.0rem !important }
+div.Basic-Graphics-Frame { border-color: #000000; border-width: 1px; border-style: solid; }
+div.Basic-Text-Frame { border-style: solid; }
+li { font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; text-transform: none; line-height: 1.3rem; }
+p.Basic-Paragraph, li.Basic-Paragraph { color: #000000; font-family: "Minion Pro", serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.3rem; margin-bottom: 0; margin-left: 0px; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: left; text-decoration: none; text-indent: 1px; text-transform: none; widows: 1; }
+p.Paragraph-Style-10 { color: #000000; font-family: "Roboto Light", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 300; line-height: 1.3rem; margin-bottom: 5px; margin-left: 0px; margin-right: 5px; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-align-last: left; text-decoration: none; text-indent: 1px; text-transform: none; widows: 1; }
+p.Paragraph-Style-4 { color: #000000; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 200; line-height: 1.3rem; margin-bottom: 8px; margin-left: 0; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-decoration: none; text-indent: 0; text-transform: none; widows: 1; }
+li.Paragraph-Style-8 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: normal; line-height: 1.3rem; list-style-position: outside; margin-bottom: 1px; margin-left: 1px; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-decoration: none; text-indent: 0; text-transform: none; widows: 1; }
+span.Character-Style-13 { color: #000000; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.Character-Style-14 { color: #225ea0; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.Character-Style-18 { color: #000000; font-family: "Proxima Nova Cond", sans-serif; font-style: normal; font-weight: normal; }
+span.Character-Style-19 { font-size: 2.8rem; font-variant: small-caps; text-decoration: none; text-transform: none; }
+span.Character-Style-2 { font-family: "Proxima Nova ExCn Extrabold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 800; text-decoration: underline; }
+span.Character-Style-5 { color: #3333cc; font-family: "Encode Sans Expanded ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.Character-Style-7 { font-family: "Proxima Nova Cond Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.Character-Style-8 { font-family: Omnes, sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; text-decoration: underline; }
+span.Character-Style-9 { font-family: "Proxima Nova Cond Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.Hyperlink { color: #215e9e; text-decoration: underline; }
+p.ParaOverride-1 { -epub-hyphens: none; margin-bottom: 2px; }
+p.ParaOverride-2 { margin-bottom: 11px; }
+p.ParaOverride-3 { margin-bottom: 2px; }
+p.ParaOverride-4 { -epub-hyphens: none; margin-bottom: 5px; }
+p.ParaOverride-5 { margin-bottom: 1px; }
+p.ParaOverride-6 { -epub-hyphens: none; margin-bottom: 4px; margin-right: 10px; margin-top: 2px; text-align: left; text-align-last: left; }
+li.ParaOverride-7 { -epub-hyphens: none; list-style-position: inside; margin-bottom: 4px; text-indent: 1px; }
+p.ParaOverride-8 { margin-bottom: 2px; text-align: justify; }
+p.ParaOverride-9 { text-align: justify; }
+p.ParaOverride-10 { -epub-hyphens: none; text-align: justify; }
+p.ParaOverride-11 { -epub-hyphens: none; }
+p.ParaOverride-12 { -epub-hyphens: none; margin-bottom: 1px; }
+p.ParaOverride-13 { -epub-hyphens: none; margin-bottom: 1px; text-align: justify; }
+p.ParaOverride-14 { -epub-hyphens: none; margin-bottom: 10px; }
+li.ParaOverride-15 { -epub-hyphens: none; list-style-position: outside; margin-bottom: 4px; margin-left: 4px; margin-right: 4px; text-indent: 0px; }
+li.ParaOverride-16 { -epub-hyphens: none; list-style-position: outside; margin-bottom: 18px; margin-left: 4px; margin-right: 4px; text-indent: 0px; }
+p.ParaOverride-17 { -epub-hyphens: none; margin-bottom: 4px; }
+li.ParaOverride-18 { -epub-hyphens: none; margin-bottom: 4px; margin-left: 4px; margin-right: 2px; margin-top: 2px; text-indent: 0px; }
+p.ParaOverride-19 { -epub-hyphens: none; margin-bottom: 0px; text-align: justify; }
+p.ParaOverride-20 { margin-bottom: 7px; text-align: justify; }
+p.ParaOverride-21 { margin-bottom: 1px; text-align: justify; text-align-last: left; }
+p.ParaOverride-22 { -epub-hyphens: none; text-align: justify; }
+p.ParaOverride-23 { -epub-hyphens: none; margin-bottom: 10px; text-align: justify; }
+p.ParaOverride-24 { margin-bottom: 2px; margin-top: 14px; text-align: justify; }
+p.ParaOverride-25 { text-align: justify; }
+p.ParaOverride-26 { margin-bottom: 10px; margin-top: 13px; text-align: justify; }
+span.CharOverride-1 { font-family: "Oswald SemiBold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-2 { font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-3 { font-size: 0.8rem; }
+span.CharOverride-4 { color: #352663; font-size: 0.8rem; }
+span.CharOverride-5 { color: #352663; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-6 { color: #000000; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-7 { color: #336768; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-8 { color: #336768; font-size: 0.8rem; }
+span.CharOverride-9 { color: #000000; font-size: 0.8rem; }
+span.CharOverride-10 { color: #6d6f71; font-size: 0.8rem; }
+span.CharOverride-11 { color: #20458d; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-12 { color: #25408f; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-13 { color: #20458d; font-size: 0.8rem; }
+span.CharOverride-14 { color: #1e468c; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-15 { color: #1e468c; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-16 { color: #225ea0; font-size: 0.8rem; }
+span.CharOverride-17 { color: #25408f; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-18 { color: #6d6f71; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-19 { font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-20 { color: #a99125; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-21 { color: #a99125; font-size: 0.8rem; font-style: italic; font-weight: normal; }
+span.CharOverride-22 { color: #6d6e71; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-23 { color: #3333cc; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: normal; text-decoration: underline; text-transform: none; }
+span.CharOverride-24 { color: #000000; font-size: 0.8rem; font-style: italic; font-weight: normal; }
+span.CharOverride-25 { color: #00aeef; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-26 { color: #3333cc; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-27 { color: #0033ff; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: normal; text-transform: none; }
+span.CharOverride-28 { color: #000000; font-style: normal; font-variant: small-caps; font-weight: bold; text-transform: none; }
+span.CharOverride-29 { color: #000000; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: bold; text-transform: none; }
+span.CharOverride-30 { color: #000000; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 600; text-transform: none; }
+span.CharOverride-31 { font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 600; text-transform: none; }
+span.CharOverride-32 { color: #6d6f71; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 600; text-transform: none; }
+span.CharOverride-33 { color: #6d6f71; font-size: 0.8rem; font-variant: small-caps; text-transform: none; }
+span.CharOverride-34 { font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-35 { color: #25408f; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-36 { font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-37 { color: #215e9e; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-38 { font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; text-decoration: underline; }
+span.CharOverride-39 { font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; text-decoration: underline; }
+span.CharOverride-40 { color: #20458d; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-41 { color: #336699; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-42 { font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-43 { color: #6d6e71; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-44 { font-family: "Proxima Nova ExCn Semibold", sans-serif; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-45 { color: #a89131; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-46 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-47 { color: #000000; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-48 { color: #000000; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-49 { font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-50 { color: #ff9900; font-family: "Proxima Nova ExCn Medium", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
+span.CharOverride-51 { font-family: "Proxima Nova ExCn Medium", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
+span.CharOverride-52 { color: #ec008c; font-family: "Proxima Nova ExCn Medium", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
+span.CharOverride-53 { color: #3333cc; font-family: "Proxima Nova ExCn Medium", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
+span.CharOverride-54 { color: #999b9e; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-55 { color: #000000; text-decoration: underline; }
+span.CharOverride-56 { color: #000000; }
+span.CharOverride-57 { color: #000000; font-family: ABeeZee, sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-58 { color: #000000; font-family: Poly, serif; font-size: 0.8rem; font-style: italic; font-weight: normal; }
+span.CharOverride-59 { color: #00aeef; font-family: "Arial Unicode MS", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-60 { color: #25408f; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 1.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
+span.CharOverride-61 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 1.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-62 { color: #a99125; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-63 { color: #25408f; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-64 { color: #25408f; font-family: "Proxima Nova ExCn", sans-serif; font-size: 1.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-65 { font-size: 3.8rem; text-decoration: none; }
+span.CharOverride-66 { color: #20458d; font-family: "Josefin Sans Std", sans-serif; font-style: normal; font-variant: small-caps; font-weight: 100; font-size: 1.8rem; text-transform: none; }
+span.CharOverride-67 { color: #20458d; font-family: "Josefin Sans Std", sans-serif; font-size: 1.7rem; font-style: normal; font-variant: small-caps; font-weight: 100; letter-spacing: 6.0px; text-transform: none; }
+span.CharOverride-67-sub { color: #20458d; font-family: "Josefin Sans Std", sans-serif; font-size: 1.2rem; font-style: normal; font-variant: small-caps; font-weight: 100; letter-spacing: 3.0px; text-transform: none; }
+span.CharOverride-68 { color: #20458d; font-family: "Open Sans Light", sans-serif; font-size: 1.4rem; font-style: normal; font-variant: small-caps; font-weight: 100; text-transform: none; }
+span.CharOverride-69 { color: #20458d; font-family: "Montserrat Thin", sans-serif; font-size: 1.4rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
+span.CharOverride-70 { color: #565759; font-family: "Times New Roman", serif; font-size: 1.0rem; letter-spacing: 5.0px; font-style: normal; font-variant: small-caps; font-weight: normal; text-transform: none; }
+span.CharOverride-71 { font-family: "Lato Light", sans-serif; font-size: 1.2rem; font-style: normal; font-variant: small-caps; font-weight: 100; letter-spacing: 3.0px; text-transform: none; }
+span.CharOverride-72 { color: #a99125; font-family: "Times New Roman", serif; font-size: 1.0rem; letter-spacing: 1.0px; font-style: normal; font-variant: small-caps; font-weight: normal; text-transform: none; }
+span.CharOverride-73 { color: #20458d; font-family: "Proxima Nova Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 200; text-transform: uppercase; }
+span.CharOverride-74 { color: #000000; font-family: "Oswald ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-75 { color: #20458d; font-family: "Lato ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 100; }
+span.CharOverride-76 { color: #006666; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-77 { color: #20458d; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 100; }
+span.CharOverride-78 { color: #20458d; font-family: "Lato ExtraLight", sans-serif; font-style: normal; font-weight: 200; }
+span.CharOverride-79 { color: #20458d; font-family: "Proxima Nova ExCn", sans-serif; font-style: normal; font-weight: normal; }
+span.CharOverride-80 { color: #999b9e; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-81 { font-family: Lato, sans-serif; font-style: normal; font-weight: normal; }
+span.CharOverride-82 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: bold; text-transform: none; }
+span.CharOverride-83 { color: #000000; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-84 { color: #000000; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-85 { color: #000000; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-86 { color: #25408f; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-87 { color: #215e9e; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-88 { color: #225ea0; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-89 { color: #225ea0; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-90 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-91 { color: #000000; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 300; text-transform: none; }
+span.CharOverride-92 { color: #336768; font-family: "Oswald ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-93 { color: #943431; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-94 { color: #943431; font-family: "Lato ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-95 { color: #672821; font-size: 0.8rem; }
+span.CharOverride-96 { color: #672821; font-family: "Oswald Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-97 { color: #000000; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-98 { color: #000000; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; }
+span.CharOverride-99 { color: #215e9e; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; }
+span.CharOverride-100 { color: #215e9e; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: bold; text-transform: none; }
+span.CharOverride-101 { color: #000000; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; vertical-align: super; }
+span.CharOverride-102 { color: #000000; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: bold; text-transform: none; }
+span.CharOverride-103 { color: #20458d; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; }
+span.CharOverride-104 { font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; }
+span.CharOverride-105 { font-size: 0.8rem; font-style: italic; font-variant: normal; font-weight: normal; text-transform: none; }
+span.CharOverride-106 { color: #25408f; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; text-transform: none; }
+span.CharOverride-107 { color: #215e9e; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-108 { color: #20458d; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: bold; text-transform: none; }
+span.CharOverride-109 { font-family: "Lato Light", sans-serif; font-style: italic; font-weight: 300; }
+span.CharOverride-110 { color: #6d6f71; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-111 { color: #000000; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 200; }
+span.CharOverride-112 { color: #000000; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-113 { color: #000000; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-114 { color: #352663; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-115 { color: #215e9e; font-family: "Proxima Nova Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-116 { color: #352663; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-117 { color: #352663; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 300; }
+span.CharOverride-118 { color: #000000; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 200; }
+span.CharOverride-119 { font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-120 { color: #a89131; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
+span.CharOverride-121 { color: #a89131; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
+span.CharOverride-122 { color: #20458d; font-family: "Oswald ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 200; text-transform: uppercase; }
+span.CharOverride-123 { color: #6d6f71; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 200; }
+span.CharOverride-124 { color: #352663; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 300; text-transform: none; }
+span.CharOverride-125 { color: #352663; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-126 { color: #25408f; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-127 { color: #999b9e; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: normal; text-transform: none; }
+span.CharOverride-128 { color: #336699; font-family: "Lato Hairline", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
+span.CharOverride-129 { color: #000000; font-family: "Proxima Nova Cond", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-130 { color: #4a4b4c; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-131 { color: #000000; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-132 { color: #00aeef; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-133 { color: #25408f; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-134 { color: #ff9900; font-family: "Lato Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-135 { color: #ff9900; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-136 { color: #f2d600; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-137 { color: #27418f; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-138 { color: #8082b6; font-family: "Lato ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-139 { color: #8c8e90; font-family: "Lato ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-140 { color: #336699; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-141 { font-family: "Lato ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-142 { font-family: "Bitstream Vera Sans", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+#_idContainer000, #_idContainer010 { display: inline-block; height: 0px; position: relative; width: 0px; }
+#_idContainer003 { display: inline-block; height: 0px; position: relative; width: 201px; }
+#_idContainer004 { display: inline-block; height: 0px; position: relative; width: 198px; }
+#_idContainer005 { display: inline-block; height: 0px; position: relative; width: 195px; }
+#_idContainer006 { display: inline-block; height: 0px; position: relative; width: 189px; }
+#_idContainer008 { display: inline-block; height: 0px; position: relative; width: 203px; }
+#_idContainer011 { display: inline-block; height: 120px; width: 162px; }
+#_idContainer014 { display: inline-block; height: 110px; width: 164px; }
+#_idContainer016 { display: inline-block; height: 0px; position: relative; width: 143px; }
+img._idGenObjectAttribute-1 { height: 100.00%; min-width: 100%; width: 100.00%; }
+div._idGenObjectStyleOverride-1 { border-style: solid; border-width: 4px; }
+div._idGenObjectStyleOverride-2 { border-width: 0px; }
+div._idGenObjectStyleOverride-3 { border-color: #6f7173; border-style: double; border-width: 1px; }
+div._idGenObjectStyleOverride-4 { background-color: #000000; border-color: #77787b; border-style: double; border-width: 1px; }
+div._idGenObjectStyleOverride-5 { background-color: #000000; border-color: #95979a; border-width: 1px; }
+div._idGenObjectStyleOverride-6 { border-color: #babcbe; border-style: solid; border-width: 2px; }
+div._idGenObjectStyleOverride-7 { background-color: #000000; border-width: 0px; }
+div._idGenObjectStyleOverride-8 { border-color: #a1a3a6; border-width: 1px; }
+div._idGenObjectLayout-1 { text-align: justify; }
