@@ -96,18 +96,18 @@ div.Basic-Graphics-Frame { border-color: #000000; border-width: 1px; border-styl
 div.Basic-Text-Frame { border-style: solid; }
 li { font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; text-transform: none; line-height: 1.3rem; }
 p.Basic-Paragraph, li.Basic-Paragraph { color: #000000; font-family: "Minion Pro", serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.3rem; margin-bottom: 0; margin-left: 0px; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: left; text-decoration: none; text-indent: 1px; text-transform: none; widows: 1; }
-p.Paragraph-Style-10 { color: #000000; font-family: "Roboto Light", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 300; line-height: 1.3rem; margin-bottom: 5px; margin-left: 0px; margin-right: 5px; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-align-last: left; text-decoration: none; text-indent: 1px; text-transform: none; widows: 1; }
-p.Paragraph-Style-4 { color: #000000; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 200; line-height: 1.3rem; margin-bottom: 8px; margin-left: 0; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-decoration: none; text-indent: 0; text-transform: none; widows: 1; }
-li.Paragraph-Style-8 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: normal; line-height: 1.3rem; list-style-position: outside; margin-bottom: 1px; margin-left: 1px; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-decoration: none; text-indent: 0; text-transform: none; widows: 1; }
-span.Character-Style-13 { color: #000000; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.Character-Style-14 { color: #225ea0; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
-span.Character-Style-18 { color: #000000; font-family: "Proxima Nova Cond", sans-serif; font-style: normal; font-weight: normal; }
+p.Paragraph-Style-10 { color: #000000; font-family: "Roboto", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 300; line-height: 1.3rem; margin-bottom: 5px; margin-left: 0px; margin-right: 5px; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-align-last: left; text-decoration: none; text-indent: 1px; text-transform: none; widows: 1; }
+p.Paragraph-Style-4 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 200; line-height: 1.3rem; margin-bottom: 8px; margin-left: 0; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-decoration: none; text-indent: 0; text-transform: none; widows: 1; }
+li.Paragraph-Style-8 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: normal; line-height: 1.3rem; list-style-position: outside; margin-bottom: 1px; margin-left: 1px; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-decoration: none; text-indent: 0; text-transform: none; widows: 1; }
+span.Character-Style-13 { color: #000000; font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.Character-Style-14 { color: #225ea0; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.Character-Style-18 { color: #000000; font-family: "Muli", sans-serif; font-style: normal; font-weight: normal; }
 span.Character-Style-19 { font-size: 2.8rem; font-variant: small-caps; text-decoration: none; text-transform: none; }
-span.Character-Style-2 { font-family: "Proxima Nova ExCn Extrabold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 800; text-decoration: underline; }
+span.Character-Style-2 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 800; text-decoration: underline; }
 span.Character-Style-5 { color: #3333cc; font-family: "Encode Sans Expanded ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.Character-Style-7 { font-family: "Proxima Nova Cond Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.Character-Style-7 { font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
 span.Character-Style-8 { font-family: Omnes, sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; text-decoration: underline; }
-span.Character-Style-9 { font-family: "Proxima Nova Cond Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.Character-Style-9 { font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
 span.Hyperlink { color: #215e9e; text-decoration: underline; }
 p.ParaOverride-1 { -epub-hyphens: none; margin-bottom: 2px; }
 p.ParaOverride-2 { margin-bottom: 11px; }
@@ -164,41 +164,41 @@ span.CharOverride-26 { color: #3333cc; font-size: 0.8rem; font-style: normal; fo
 span.CharOverride-27 { color: #0033ff; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: normal; text-transform: none; }
 span.CharOverride-28 { color: #000000; font-style: normal; font-variant: small-caps; font-weight: bold; text-transform: none; }
 span.CharOverride-29 { color: #000000; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: bold; text-transform: none; }
-span.CharOverride-30 { color: #000000; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 600; text-transform: none; }
-span.CharOverride-31 { font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 600; text-transform: none; }
-span.CharOverride-32 { color: #6d6f71; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 600; text-transform: none; }
+span.CharOverride-30 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 600; text-transform: none; }
+span.CharOverride-31 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 600; text-transform: none; }
+span.CharOverride-32 { color: #6d6f71; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 600; text-transform: none; }
 span.CharOverride-33 { color: #6d6f71; font-size: 0.8rem; font-variant: small-caps; text-transform: none; }
 span.CharOverride-34 { font-size: 0.8rem; font-style: normal; font-weight: bold; }
-span.CharOverride-35 { color: #25408f; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
-span.CharOverride-36 { font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
-span.CharOverride-37 { color: #215e9e; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
-span.CharOverride-38 { font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; text-decoration: underline; }
-span.CharOverride-39 { font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; text-decoration: underline; }
-span.CharOverride-40 { color: #20458d; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
-span.CharOverride-41 { color: #336699; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
-span.CharOverride-42 { font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
-span.CharOverride-43 { color: #6d6e71; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
-span.CharOverride-44 { font-family: "Proxima Nova ExCn Semibold", sans-serif; font-style: normal; font-weight: 600; text-decoration: underline; }
-span.CharOverride-45 { color: #a89131; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: bold; }
-span.CharOverride-46 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: bold; }
-span.CharOverride-47 { color: #000000; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
-span.CharOverride-48 { color: #000000; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.CharOverride-49 { font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.CharOverride-50 { color: #ff9900; font-family: "Proxima Nova ExCn Medium", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
-span.CharOverride-51 { font-family: "Proxima Nova ExCn Medium", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
-span.CharOverride-52 { color: #ec008c; font-family: "Proxima Nova ExCn Medium", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
-span.CharOverride-53 { color: #3333cc; font-family: "Proxima Nova ExCn Medium", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
-span.CharOverride-54 { color: #999b9e; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-35 { color: #25408f; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-36 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-37 { color: #215e9e; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-38 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; text-decoration: underline; }
+span.CharOverride-39 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; text-decoration: underline; }
+span.CharOverride-40 { color: #20458d; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-41 { color: #336699; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-42 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-43 { color: #6d6e71; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-44 { font-family: "Lato", sans-serif; font-style: normal; font-weight: 600; text-decoration: underline; }
+span.CharOverride-45 { color: #a89131; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-46 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-47 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-48 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-49 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-50 { color: #ff9900; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
+span.CharOverride-51 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
+span.CharOverride-52 { color: #ec008c; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
+span.CharOverride-53 { color: #3333cc; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 500; }
+span.CharOverride-54 { color: #999b9e; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
 span.CharOverride-55 { color: #000000; text-decoration: underline; }
 span.CharOverride-56 { color: #000000; }
 span.CharOverride-57 { color: #000000; font-family: ABeeZee, sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
 span.CharOverride-58 { color: #000000; font-family: Poly, serif; font-size: 0.8rem; font-style: italic; font-weight: normal; }
 span.CharOverride-59 { color: #00aeef; font-family: "Arial Unicode MS", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
-span.CharOverride-60 { color: #25408f; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 1.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
-span.CharOverride-61 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 1.8rem; font-style: normal; font-weight: normal; }
-span.CharOverride-62 { color: #a99125; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
-span.CharOverride-63 { color: #25408f; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.CharOverride-64 { color: #25408f; font-family: "Proxima Nova ExCn", sans-serif; font-size: 1.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-60 { color: #25408f; font-family: "Lato", sans-serif; font-size: 1.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
+span.CharOverride-61 { color: #000000; font-family: "Lato", sans-serif; font-size: 1.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-62 { color: #a99125; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-63 { color: #25408f; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-64 { color: #25408f; font-family: "Lato", sans-serif; font-size: 1.8rem; font-style: normal; font-weight: normal; }
 span.CharOverride-65 { font-size: 3.8rem; text-decoration: none; }
 span.CharOverride-66 { color: #20458d; font-family: "Josefin Sans Std", sans-serif; font-style: normal; font-variant: small-caps; font-weight: 100; font-size: 1.8rem; text-transform: none; }
 span.CharOverride-67 { color: #20458d; font-family: "Josefin Sans Std", sans-serif; font-size: 1.7rem; font-style: normal; font-variant: small-caps; font-weight: 100; letter-spacing: 6.0px; text-transform: none; }
@@ -208,25 +208,25 @@ span.CharOverride-69 { color: #20458d; font-family: "Montserrat Thin", sans-seri
 span.CharOverride-70 { color: #565759; font-family: "Times New Roman", serif; font-size: 1.0rem; letter-spacing: 5.0px; font-style: normal; font-variant: small-caps; font-weight: normal; text-transform: none; }
 span.CharOverride-71 { font-family: "Lato Light", sans-serif; font-size: 1.2rem; font-style: normal; font-variant: small-caps; font-weight: 100; letter-spacing: 3.0px; text-transform: none; }
 span.CharOverride-72 { color: #a99125; font-family: "Times New Roman", serif; font-size: 1.0rem; letter-spacing: 1.0px; font-style: normal; font-variant: small-caps; font-weight: normal; text-transform: none; }
-span.CharOverride-73 { color: #20458d; font-family: "Proxima Nova Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 200; text-transform: uppercase; }
+span.CharOverride-73 { color: #20458d; font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 200; text-transform: uppercase; }
 span.CharOverride-74 { color: #000000; font-family: "Oswald ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
 span.CharOverride-75 { color: #20458d; font-family: "Lato ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 100; }
 span.CharOverride-76 { color: #006666; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
 span.CharOverride-77 { color: #20458d; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 100; }
 span.CharOverride-78 { color: #20458d; font-family: "Lato ExtraLight", sans-serif; font-style: normal; font-weight: 200; }
-span.CharOverride-79 { color: #20458d; font-family: "Proxima Nova ExCn", sans-serif; font-style: normal; font-weight: normal; }
-span.CharOverride-80 { color: #999b9e; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-79 { color: #20458d; font-family: "Lato", sans-serif; font-style: normal; font-weight: normal; }
+span.CharOverride-80 { color: #999b9e; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
 span.CharOverride-81 { font-family: Lato, sans-serif; font-style: normal; font-weight: normal; }
-span.CharOverride-82 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: bold; text-transform: none; }
-span.CharOverride-83 { color: #000000; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
-span.CharOverride-84 { color: #000000; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.CharOverride-85 { color: #000000; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
-span.CharOverride-86 { color: #25408f; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
-span.CharOverride-87 { color: #215e9e; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.CharOverride-88 { color: #225ea0; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.CharOverride-89 { color: #225ea0; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
-span.CharOverride-90 { color: #000000; font-family: "Proxima Nova ExCn", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: bold; }
-span.CharOverride-91 { color: #000000; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 300; text-transform: none; }
+span.CharOverride-82 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: bold; text-transform: none; }
+span.CharOverride-83 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-84 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-85 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-86 { color: #25408f; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-87 { color: #215e9e; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-88 { color: #225ea0; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-89 { color: #225ea0; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-90 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: bold; }
+span.CharOverride-91 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 300; text-transform: none; }
 span.CharOverride-92 { color: #336768; font-family: "Oswald ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
 span.CharOverride-93 { color: #943431; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
 span.CharOverride-94 { color: #943431; font-family: "Lato ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
@@ -246,25 +246,25 @@ span.CharOverride-107 { color: #215e9e; font-size: 0.8rem; font-style: normal; f
 span.CharOverride-108 { color: #20458d; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: bold; text-transform: none; }
 span.CharOverride-109 { font-family: "Lato Light", sans-serif; font-style: italic; font-weight: 300; }
 span.CharOverride-110 { color: #6d6f71; font-size: 0.8rem; font-style: normal; font-weight: normal; }
-span.CharOverride-111 { color: #000000; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 200; }
-span.CharOverride-112 { color: #000000; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
-span.CharOverride-113 { color: #000000; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.CharOverride-114 { color: #352663; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
-span.CharOverride-115 { color: #215e9e; font-family: "Proxima Nova Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
-span.CharOverride-116 { color: #352663; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
-span.CharOverride-117 { color: #352663; font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 300; }
-span.CharOverride-118 { color: #000000; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 200; }
-span.CharOverride-119 { font-family: "Proxima Nova ExCn Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
-span.CharOverride-120 { color: #a89131; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
-span.CharOverride-121 { color: #a89131; font-family: "Proxima Nova Cond Thin", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
+span.CharOverride-111 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 200; }
+span.CharOverride-112 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-113 { color: #000000; font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-114 { color: #352663; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
+span.CharOverride-115 { color: #215e9e; font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-116 { color: #352663; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-117 { color: #352663; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 300; }
+span.CharOverride-118 { color: #000000; font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 200; }
+span.CharOverride-119 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
+span.CharOverride-120 { color: #a89131; font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
+span.CharOverride-121 { color: #a89131; font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
 span.CharOverride-122 { color: #20458d; font-family: "Oswald ExtraLight", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 200; text-transform: uppercase; }
-span.CharOverride-123 { color: #6d6f71; font-family: "Proxima Nova ExCn Thin", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 200; }
+span.CharOverride-123 { color: #6d6f71; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: italic; font-weight: 200; }
 span.CharOverride-124 { color: #352663; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 300; text-transform: none; }
 span.CharOverride-125 { color: #352663; font-family: "Lato Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
-span.CharOverride-126 { color: #25408f; font-family: "Proxima Nova ExCn Semibold", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
+span.CharOverride-126 { color: #25408f; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 600; }
 span.CharOverride-127 { color: #999b9e; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: normal; text-transform: none; }
 span.CharOverride-128 { color: #336699; font-family: "Lato Hairline", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: 200; text-transform: none; }
-span.CharOverride-129 { color: #000000; font-family: "Proxima Nova Cond", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
+span.CharOverride-129 { color: #000000; font-family: "Muli", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
 span.CharOverride-130 { color: #4a4b4c; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
 span.CharOverride-131 { color: #000000; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
 span.CharOverride-132 { color: #00aeef; font-family: "Josefin Sans Light", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
