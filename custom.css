@@ -1,7 +1,7 @@
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote { margin: 0; padding: 0; border-width: 0; }
 body { -epub-hyphens: auto; }
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700,900|Lato:100,200,300,400,500,600|Muli:200,300,400,600,700|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Raleway:100,200,300,400,500&amp;subset=latin-ext');
-.underline { display: inline-block; position: relative; background-repeat: no-repeat; animation-name: underline-spreadout; animation-duration: 5s; animation-timing-function: ease-out }
+.underline { display: inline-block; position: relative; background-repeat: no-repeat; animation-name: underline-spreadout; animation-duration:8s; animation-timing-function: ease-out }
 @keyframes underline-spreadout {
     0% { background-size: 0px; opacity: 0.0;        /* font-size: 10px; */        /* letter-spacing: 0.5px; */
     transform: scalex(0.05); transform: scaley(0.01); height: 100% }
