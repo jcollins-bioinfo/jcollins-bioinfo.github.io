@@ -1,7 +1,21 @@
-body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote { margin: 0; padding: 0; border-width: 0; }
-body { -epub-hyphens: auto; }
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700,900|Josefin+Sans:100,200,300,400|Lato:100,200,300,400,500,600|Muli:200,300,400,600,700|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Raleway:100,200,300,400,500&amp;subset=latin-ext');
-.underline { display: inline-block; position: relative; background-repeat: no-repeat; animation-name: underline-spreadout; animation-duration:5s; animation-timing-function: ease-out }
+body,
+div,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+code,
+blockquote { margin: 0; padding: 0; border-width: 0; }
+body { -epub-hyphens: auto; }
+.underline { display: inline-block; position: relative; background-repeat: no-repeat; animation-name: underline-spreadout; animation-duration: 5s; animation-timing-function: ease-out }
 @keyframes underline-spreadout {
     0% { background-size: 0px; opacity: 0.0;        /* font-size: 10px; */        /* letter-spacing: 0.5px; */
     transform: scalex(0.05); transform: scaley(0.01); height: 100% }
@@ -12,7 +26,9 @@ body { -epub-hyphens: auto; }
     100% { background-size: 1px; opacity: 0.99;        /* font-size: 15px; */        /* letter-spacing: 14px; */
     transform: scalex(1); transform: scaley(1); height: 100% }
 }
-*, *:after, *:before { box-sizing: border-box; -moz-box-sizing: border-box }
+*,
+*:after,
+*:before { box-sizing: border-box; -moz-box-sizing: border-box }
 * { margin: 0; padding: 0; border: 0 none; position: relative; outline: none }
 @keyframes anim-text-flow-keys {
     0% { color: #ff9800; opacity: 0.998 }
@@ -66,16 +82,28 @@ body { -epub-hyphens: auto; }
     98% { color: #ffae00; opacity: 0.998 }
     100% { color: #ff9800; opacity: 1.0 }
 }
-html, body, div.text_cell_render body { font-family: "Open Sans", sans-serif; color: #000; background-color: #fff }
+html,
+body,
+div.text_cell_render body { font-family: "Open Sans", sans-serif; color: #000; background-color: #fff }
 a { color: rgb(32, 92, 188); text-decoration: none; -o-transition: color 2.0s ease-out, background .1s ease-in; -ms-transition: color 2.0s ease-out, background .1s ease-in; -moz-transition: color 2.0s ease-out, background .1s ease-in; -webkit-transition: color 2.0s ease-out, background .1s ease-in; transition: color 2.5s ease-out, background .1s ease-in }
 a:link { text-decoration: none; color: rgb(51, 150, 204) !important }
 .fa-caret-down { font-size: medium !important }
 .fa-caret-right { font-size: small; opacity: 0.15 }
 .fa-fw { width: 2.0em }
-a:hover, .navbar-default, a:focus, .fa-fw:hover { color: blue !important; position: relative; transition-duration: 2.75 s !important; transition-property: transform !important; &amp;
+a:hover,
+.navbar-default,
+a:focus,
+.fa-fw:hover { color: blue !important; position: relative; transition-duration: 2.75 s !important; transition-property: transform !important; &amp;
     :before { pointer-events: none; position: absolute; z-index: -1; content: ''; top: 100 %; left: 15 % !important; width: 90 %; opacity: .75; color: radial-gradient(ellipse at center, rgba(0, 0, 0, .81) 50 %, rgba(0, 0, 0, 0.30) 90 %) !important; transition-duration: 1.5 s; transition-property: transform opacity 0.95 }
 }
-#jc-anim:hover, #jc-anim-active, h1:hover, p:hover, h4:hover, h3:hover, h5:hover, h2:hover { animation-name: anim-text-flow-keys; animation-duration: 35s; animation-timing-function: linear; animation-iteration-count: infinite }
+#jc-anim:hover,
+#jc-anim-active,
+h1:hover,
+p:hover,
+h4:hover,
+h3:hover,
+h5:hover,
+h2:hover { animation-name: anim-text-flow-keys; animation-duration: 35s; animation-timing-function: linear; animation-iteration-count: infinite }
 h1 { font-size: 3.5rem; font-family: 'Oswald', sans-serif; text-rendering: optimizeLegibility; color: rgb(12, 49, 142); font-weight: 500; text-decoration: none; border-bottom: 0.5px solid gray; line-height: 4rem }
 h2 { font-size: 3rem; font-family: 'Muli', sans-serif; color: #FF5A09; font-weight: 400 }
 h3 { font-size: 2.2rem; font-family: 'Muli', sans-serif; font-weight: 100; color: rgb(32, 92, 188) }
@@ -91,11 +119,15 @@ h6 { text-decoration: none; font-size: 1.5rem; font-family: 'Roboto-Mono', sans-
 .cm-s-ipython span.cm-variable { color: rgba(2, 54, 131, 0.99); font-weight: 400 }
 .cm-s-ipython span.cm-comment { color: #408080; font-style: italic }
 .cm-s-ipython span.cm-instance { color: pink; font-style: italic }
-code, kbd, pre, samp { font-family: 'Open Sans', sans-serif ! important; font-weight: 200; font-size: 1.5rem !important; line-height: 2.0rem !important }
+code,
+kbd,
+pre,
+samp { font-family: 'Open Sans', sans-serif ! important; font-weight: 200; font-size: 1.5rem !important; line-height: 2.0rem !important }
 div.Basic-Graphics-Frame { border-color: #000000; border-width: 1px; border-style: solid; }
 div.Basic-Text-Frame { border-style: solid; }
 li { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; text-transform: none; line-height: 1.3rem; }
-p.Basic-Paragraph, li.Basic-Paragraph { color: #000000; font-family: "Minion Pro", serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.3rem; margin-bottom: 0; margin-left: 0px; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: left; text-decoration: none; text-indent: 1px; text-transform: none; widows: 1; }
+p.Basic-Paragraph,
+li.Basic-Paragraph { color: #000000; font-family: "Minion Pro", serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1.3rem; margin-bottom: 0; margin-left: 0px; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: left; text-decoration: none; text-indent: 1px; text-transform: none; widows: 1; }
 p.Paragraph-Style-10 { color: #000000; font-family: "Roboto", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 300; line-height: 1.3rem; margin-bottom: 5px; margin-left: 0px; margin-right: 5px; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-align-last: left; text-decoration: none; text-indent: 1px; text-transform: none; widows: 1; }
 p.Paragraph-Style-4 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: normal; font-weight: 200; line-height: 1.3rem; margin-bottom: 8px; margin-left: 0; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-decoration: none; text-indent: 0; text-transform: none; widows: 1; }
 li.Paragraph-Style-8 { color: #000000; font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-variant: small-caps; font-weight: normal; line-height: 1.3rem; list-style-position: outside; margin-bottom: 1px; margin-left: 1px; margin-right: 0; margin-top: 0; orphans: 1; page-break-after: auto; page-break-before: auto; text-align: justify; text-decoration: none; text-indent: 0; text-transform: none; widows: 1; }
@@ -278,7 +310,8 @@ span.CharOverride-139 { color: #8c8e90; font-family: "Lato", sans-serif; font-si
 span.CharOverride-140 { color: #336699; font-family: "Josefin Sans", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 300; }
 span.CharOverride-141 { font-family: "Lato", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: 200; }
 span.CharOverride-142 { font-family: "Bitstream Vera Sans", sans-serif; font-size: 0.8rem; font-style: normal; font-weight: normal; }
-#_idContainer000, #_idContainer010 { display: inline-block; height: 0px; position: relative; width: 0px; }
+#_idContainer000,
+#_idContainer010 { display: inline-block; height: 0px; position: relative; width: 0px; }
 #_idContainer003 { display: inline-block; height: 0px; position: relative; width: 201px; }
 #_idContainer004 { display: inline-block; height: 0px; position: relative; width: 198px; }
 #_idContainer005 { display: inline-block; height: 0px; position: relative; width: 195px; }
