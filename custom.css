@@ -420,7 +420,7 @@ h4 {
     font-size: 1.8rem;
     font-family: 'Muli', sans-serif;
     color: #FF5A09;
-    font-weight: 200
+    font-weight: 300
 }
 
 h5 {
@@ -438,7 +438,7 @@ h6 {
     font-size: 1.5rem;
     font-family: 'Roboto-Mono', sans-serif;
     color: #393939;
-    font-weight: 200
+    font-weight: 300
 }
 
 .cm-s-ipython span.cm-def {
@@ -489,7 +489,7 @@ h6 {
 
 code, kbd, pre, samp {
     font-family: 'Open Sans', sans-serif ! important;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.5rem !important;
     line-height: 2.0rem !important
 }
@@ -508,7 +508,7 @@ li {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: none;
     line-height: 1.3rem;
 }
@@ -564,7 +564,7 @@ p.Paragraph-Style-4 {
     font-size: 0.8rem;
     font-style: normal;
     font-variant: normal;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1.3rem;
     margin-bottom: 8px;
     margin-left: 0;
@@ -608,7 +608,7 @@ span.Character-Style-13 {
     font-family: "Muli", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.Character-Style-14 {
@@ -646,7 +646,7 @@ span.Character-Style-5 {
     font-family: "Encode Sans Expanded ExtraLight", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.Character-Style-7 {
@@ -1171,14 +1171,14 @@ span.CharOverride-48 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-49 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-50 {
@@ -1259,7 +1259,7 @@ span.CharOverride-60 {
     font-size: 1.8rem;
     font-style: normal;
     font-variant: small-caps;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: none;
 }
 
@@ -1284,7 +1284,7 @@ span.CharOverride-63 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-64 {
@@ -1348,7 +1348,7 @@ span.CharOverride-69 {
     font-size: 1.4rem;
     font-style: normal;
     font-variant: small-caps;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: none;
 }
 
@@ -1390,7 +1390,7 @@ span.CharOverride-73 {
     font-size: 0.8rem;
     font-style: normal;
     font-variant: normal;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
@@ -1399,7 +1399,7 @@ span.CharOverride-74 {
     font-family: "Oswald", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-75 {
@@ -1430,7 +1430,7 @@ span.CharOverride-78 {
     color: #20458d;
     font-family: "Lato", sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-79 {
@@ -1445,7 +1445,7 @@ span.CharOverride-80 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-81 {
@@ -1477,7 +1477,7 @@ span.CharOverride-84 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-85 {
@@ -1501,7 +1501,7 @@ span.CharOverride-87 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-88 {
@@ -1509,7 +1509,7 @@ span.CharOverride-88 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-89 {
@@ -1543,7 +1543,7 @@ span.CharOverride-92 {
     font-family: "Oswald", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-93 {
@@ -1559,7 +1559,7 @@ span.CharOverride-94 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-95 {
@@ -1696,7 +1696,7 @@ span.CharOverride-111 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-112 {
@@ -1712,7 +1712,7 @@ span.CharOverride-113 {
     font-family: "Muli", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-114 {
@@ -1720,7 +1720,7 @@ span.CharOverride-114 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-115 {
@@ -1752,7 +1752,7 @@ span.CharOverride-118 {
     font-family: "Muli", sans-serif;
     font-size: 0.8rem;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-119 {
@@ -1768,7 +1768,7 @@ span.CharOverride-120 {
     font-size: 0.8rem;
     font-style: normal;
     font-variant: small-caps;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: none;
 }
 
@@ -1778,7 +1778,7 @@ span.CharOverride-121 {
     font-size: 0.8rem;
     font-style: normal;
     font-variant: small-caps;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: none;
 }
 
@@ -1788,7 +1788,7 @@ span.CharOverride-122 {
     font-size: 0.8rem;
     font-style: normal;
     font-variant: normal;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
@@ -1797,7 +1797,7 @@ span.CharOverride-123 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-124 {
@@ -1841,7 +1841,7 @@ span.CharOverride-128 {
     font-size: 0.8rem;
     font-style: normal;
     font-variant: small-caps;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: none;
 }
 
@@ -1890,7 +1890,7 @@ span.CharOverride-134 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-135 {
@@ -1922,7 +1922,7 @@ span.CharOverride-138 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-139 {
@@ -1930,7 +1930,7 @@ span.CharOverride-139 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-140 {
@@ -1945,7 +1945,7 @@ span.CharOverride-141 {
     font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 span.CharOverride-142 {
