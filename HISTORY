@@ -1,4 +1,4 @@
-John Collins (50):
+John Collins (51):
       initial commit
       update text
       update css
@@ -49,7 +49,8 @@ John Collins (50):
       Added link to mod LI profile
       Added favicon
       Increased font size
+      Updated last changed date
 
-Updated last changed date
+Removed extraneous CSS styling
 
-To be current
+So that paragraph text no longer highlights when hovered over.
