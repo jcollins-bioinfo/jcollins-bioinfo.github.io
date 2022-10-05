@@ -1,4 +1,4 @@
-John Collins (53):
+John Collins (54):
       initial commit
       update text
       update css
@@ -52,7 +52,8 @@ John Collins (53):
       Updated last changed date
       Removed extraneous CSS styling
       Added GA
+      Added GA
 
 Added GA
 
-Google Analytics tags - fixing tag insertion within head
+Added Tag Manager new container with basic Page View GA tag
