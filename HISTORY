@@ -1,4 +1,4 @@
-John Collins (51):
+John Collins (52):
       initial commit
       update text
       update css
@@ -50,7 +50,8 @@ John Collins (51):
       Added favicon
       Increased font size
       Updated last changed date
+      Removed extraneous CSS styling
 
-Removed extraneous CSS styling
+Added GA
 
-So that paragraph text no longer highlights when hovered over.
+Google Analytics tags
