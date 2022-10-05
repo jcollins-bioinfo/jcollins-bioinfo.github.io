@@ -1,4 +1,4 @@
-John Collins (52):
+John Collins (53):
       initial commit
       update text
       update css
@@ -51,7 +51,8 @@ John Collins (52):
       Increased font size
       Updated last changed date
       Removed extraneous CSS styling
+      Added GA
 
 Added GA
 
-Google Analytics tags
+Google Analytics tags - fixing tag insertion within head
