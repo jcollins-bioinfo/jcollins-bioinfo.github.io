@@ -1,4 +1,4 @@
-John Collins (56):
+John Collins (57):
       initial commit
       update text
       update css
@@ -55,7 +55,8 @@ John Collins (56):
       Added GA
       Added GA
       Update GA tags
+      Updated lack of 'evergreen'-ness
 
-Updated lack of 'evergreen'-ness
+Syntax HTML corrections in index
 
-I.e., referencing time subjectively to a past temporal time removed and made explicit/objectively referenced
+Due to auto-formatter insertions
