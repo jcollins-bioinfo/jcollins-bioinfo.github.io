@@ -1,4 +1,4 @@
-John Collins (55):
+John Collins (56):
       initial commit
       update text
       update css
@@ -54,7 +54,8 @@ John Collins (55):
       Added GA
       Added GA
       Added GA
+      Update GA tags
 
-Update GA tags
+Updated lack of 'evergreen'-ness
 
-Still working on connecting the tag properly to the 'data stream' for 'analytics'
+I.e., referencing time subjectively to a past temporal time removed and made explicit/objectively referenced
