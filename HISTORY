@@ -1,4 +1,4 @@
-John Collins (54):
+John Collins (55):
       initial commit
       update text
       update css
@@ -53,7 +53,8 @@ John Collins (54):
       Removed extraneous CSS styling
       Added GA
       Added GA
+      Added GA
 
-Added GA
+Update GA tags
 
-Added Tag Manager new container with basic Page View GA tag
+Still working on connecting the tag properly to the 'data stream' for 'analytics'
