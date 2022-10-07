@@ -1,4 +1,4 @@
-John Collins (57):
+John Collins (58):
       initial commit
       update text
       update css
@@ -56,7 +56,8 @@ John Collins (57):
       Added GA
       Update GA tags
       Updated lack of 'evergreen'-ness
+      Syntax HTML corrections in index
 
-Syntax HTML corrections in index
+Moved contact info to top of page
 
-Due to auto-formatter insertions
+Plus various other slight improvements in layout; content still needs some updating...
