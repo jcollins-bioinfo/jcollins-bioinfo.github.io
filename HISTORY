@@ -1,4 +1,4 @@
-John Collins (58):
+John Collins (59):
       initial commit
       update text
       update css
@@ -57,7 +57,8 @@ John Collins (58):
       Update GA tags
       Updated lack of 'evergreen'-ness
       Syntax HTML corrections in index
+      Moved contact info to top of page
 
-Moved contact info to top of page
+Add .gitignore
 
-Plus various other slight improvements in layout; content still needs some updating...
+Namely just for .DS_Store (Mac) file..
