@@ -1,4 +1,4 @@
-John Collins (64):
+John Collins (65):
       initial commit
       update text
       update css
@@ -63,7 +63,8 @@ John Collins (64):
       Merge branch 'master' of github.com:jcollins-bioinfo/jcollins-bioinfo.github.io
       Minor typography changes
       Minor CSS formatting improvements
+      Updated .gitignore
 
-Updated .gitignore
+Improved legibility
 
-To ignore auto-created requirements.txt file
+Returned body set to auto zoom: 120%; removed extraneous LI link
