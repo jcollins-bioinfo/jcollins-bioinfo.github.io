@@ -1,4 +1,4 @@
-John Collins (59):
+John Collins (62):
       initial commit
       update text
       update css
@@ -58,7 +58,10 @@ John Collins (59):
       Updated lack of 'evergreen'-ness
       Syntax HTML corrections in index
       Moved contact info to top of page
+      Delete .DS_Store
+      Add .gitignore
+      Merge branch 'master' of github.com:jcollins-bioinfo/jcollins-bioinfo.github.io
 
-Add .gitignore
+Minor typography changes
 
-Namely just for .DS_Store (Mac) file..
+Removed instances of 100-weight fonts (too thin), etc.
