@@ -57,6 +57,11 @@
     86% { background-size: 1px; opacity: 0.5; height: 100% }
     100% { background-size: 1px; opacity: 0.99; transform: scalex(1); transform: scaley(1); height: 100% }
 }
+@keyframes appear {
+    0% { opacity: 0.0; }
+    85% { opacity: 0.5; }
+    100% { opacity: 1.0; }
+}
 *, *:after, *:before { box-sizing: border-box; -moz-box-sizing: border-box }
 * { margin: 0; padding: 0; border: 0 none; position: relative; outline: none }
 #_idContainer000, #_idContainer010 { display: inline-block; height: 0px; position: relative; width: 0px; }
@@ -92,7 +97,7 @@ a:hover, .navbar-default, a:focus, .fa-fw:hover { color: blue !important; positi
 /*a:link { text-decoration: none; color: rgb(51, 150, 204) !important }*/
 a { color: rgb(32, 92, 188); text-decoration: none; -o-transition: color 2.0s ease-out, background .1s ease-in; -ms-transition: color 2.0s ease-out, background .1s ease-in; -moz-transition: color 2.0s ease-out, background .1s ease-in; -webkit-transition: color 2.0s ease-out, background .1s ease-in; transition: color 2.5s ease-out, background .1s ease-in }
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote { margin: 0; padding: 0; border-width: 0; }
-body { -epub-hyphens: auto; zoom: 120% }
+/*body { -epub-hyphens: auto; zoom: 120% }*/
 code, kbd, pre, samp { font-family: 'Open Sans', sans-serif ! important; font-weight: 300; font-size: 1.5rem !important; line-height: 2.0rem !important }
 div.Basic-Graphics-Frame { border-color: #000000; border-width: 1px; border-style: solid; }
 div.Basic-Text-Frame { border-style: solid; }
@@ -112,7 +117,7 @@ h4 { font-size: 1.8rem; font-family: 'Muli', sans-serif; color: #FF5A09; font-we
 h5 { text-decoration: none; font-size: 1.5rem; font-family: 'Open Sans', sans-serif; color: #ec7f37; font-weight: 400; line-height: 1.7rem; opacity: 1.0 !important }
 h6 { text-decoration: none; font-size: 1.5rem; font-family: 'Roboto-Mono', sans-serif; color: #393939; font-weight: 300 }
 html, body, div.text_cell_render body { font-family: "Open Sans", sans-serif; color: #000; background-color: #fff }
-img._idGenObjectAttribute-1 { height: 100.00%; min-width: 100%; width: 100.00%; }
+img._idGenObjectAttribute-1 { height: 175.00%; min-width: 100%; width: 175.00%; margin-bottom: -18px; animation-name: appear; animation-duration: 4s; animation-timing-function: ease-out}
 li.ParaOverride-15 { -epub-hyphens: none; list-style-position: outside; margin-bottom: 4px; margin-left: 4px; margin-right: 4px; text-indent: 0px; }
 li.ParaOverride-16 { -epub-hyphens: none; list-style-position: outside; margin-bottom: 18px; margin-left: 4px; margin-right: 4px; text-indent: 0px; }
 li.ParaOverride-18 { -epub-hyphens: none; margin-bottom: 4px; margin-left: 4px; margin-right: 2px; margin-top: 2px; text-indent: 0px; }

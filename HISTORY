@@ -1,4 +1,4 @@
-John Collins (62):
+John Collins (63):
       initial commit
       update text
       update css
@@ -61,7 +61,8 @@ John Collins (62):
       Delete .DS_Store
       Add .gitignore
       Merge branch 'master' of github.com:jcollins-bioinfo/jcollins-bioinfo.github.io
+      Minor typography changes
 
-Minor typography changes
+Minor CSS formatting improvements
 
-Removed instances of 100-weight fonts (too thin), etc.
+Enlarged DNA tree, altered animations somewhat, &c
