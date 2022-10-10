@@ -1,4 +1,4 @@
-John Collins (63):
+John Collins (64):
       initial commit
       update text
       update css
@@ -62,7 +62,8 @@ John Collins (63):
       Add .gitignore
       Merge branch 'master' of github.com:jcollins-bioinfo/jcollins-bioinfo.github.io
       Minor typography changes
+      Minor CSS formatting improvements
 
-Minor CSS formatting improvements
+Updated .gitignore
 
-Enlarged DNA tree, altered animations somewhat, &c
+To ignore auto-created requirements.txt file
