@@ -1,4 +1,4 @@
-John Collins (65):
+John Collins (66):
       initial commit
       update text
       update css
@@ -64,7 +64,8 @@ John Collins (65):
       Minor typography changes
       Minor CSS formatting improvements
       Updated .gitignore
+      Improved legibility
 
-Improved legibility
+Removed VERSION file
 
-Returned body set to auto zoom: 120%; removed extraneous LI link
+
